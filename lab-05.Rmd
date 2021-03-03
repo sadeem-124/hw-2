@@ -3,18 +3,11 @@ title: "Lab 05 - Nobel laureates"
 output: github_document
   
 ---
-Team Name:
+Team Name:DS6
 
 Team Members - Name and Student ID
 
-1.
-
-2.
-
-3.
-
-4.
-
+1.sadeem ghareeb alanezi (2201001438)
 
 
 ```{r setup, include = FALSE}
@@ -46,6 +39,8 @@ nobel <- read_csv("data/nobel.csv")
 ```{r}
 dim(nobel)
 ```
+observations = 935
+variables = 26
 
 Each row represents information about a nobel prize winner.
 
